@@ -3,12 +3,44 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title></title>
+    <title>Exámen WDA Giphy</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body>
+    <header>
+        <div>
+            <h1>Giphy Explorer Jedguard Batista</h1>
+        </div>
+        <div id="busqueda">
+            <form>
+                <label><input type="search" name="inputBusqueda" id="inputBusqueda" placeholder="Busqueda de Gif" type="text"></label>
+                <button id="buscarBoton" type="submit">Buscar</button>
+            </form>
+        </div>
+        <div id="mensajeNoResultado">
+            <p>Estimado Usuario Lamentablemente su busqueda no arrojó ningún resultado, Intente nuevamente!!!</p>
+        </div>
+        <div id="contenedorRecientes">
+            <div id="recientesTitulo">
+                <!--Aquí se agrega el título de Busq. Recientes-->
+            </div>
+            <div id="recientes">
+                    <!--Se agregan los 3 <li> de las busquedas recientes <li></li> -->
+            </div>
+                <button id="status" type="reset" onclick="clearLocalStorage()" >Limpiar Recientes</button>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <article id="muestraBusquedaT" class="muestraBusquedaT">
+            <!--Imagenes Gif de la busquedas o Trending aquí <img class="claseImg"> -->
+            </article>
+        </div>
+    </main>
     
+    <script src='script.js' type="text/javascript"></script>
 </body>
 </html>

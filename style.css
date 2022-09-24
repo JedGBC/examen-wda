@@ -1,0 +1,399 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1{
+    font-size: 30px;
+    margin: 15px 0px 0px 15px;
+}
+
+input#inputBusqueda{
+    font-size: 25px;
+    width: 850px;
+    padding-left: 15px;
+}
+
+button#buscarBoton{
+    margin: 10px 0px 12px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div#busqueda {
+    margin: 10px 10px 10px 10px;
+}
+
+form {
+    width: 1080px;
+}
+
+h2{
+    font-size: 16px;
+    margin: 10px 0px 10px 10px;
+}
+
+div#recientes {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 5px;
+    margin: 5px 0px 14px 17px;
+    max-width: fit-content;
+}
+
+#recientes li {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 15px 5px 15px;
+    padding: 3px 5px 3px 5px;
+    width: fit-content;
+    display: flex;
+    pointer-events: auto;
+    background-color: rgba(205, 203, 203, 0.546);
+    border-radius: 15px;
+}
+
+#contenedorRecientes{
+    display: inline-flex;
+}
+
+button#status {
+    width: fit-content;
+    margin: 0px 0px 15px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#recintes {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+
+/*  ---------------------------------------   */
+
+img.claseImg{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+p {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 20px;
+}
+
+div #mensajeNoResultado{
+    height: 50px;
+}
+
+
+/* */
+
+#status:focus {
+    font-size: 25px;
+    border: 3px solid blue;
+}
+
+#recientes li:hover {
+    color: blue;
+    background-color: rgba(205, 203, 203, 0.546);
+    border-radius: 15px;
+}
+
+button:hover {
+    color: blue;
+    background-color: rgba(205, 203, 203, 0.546);
+    border-radius: 15px;
+}
+
+
+
+
+/**/
+
+@media only screen and (max-width: 1500px) {
+    img.claseImg{
+        width: 280px;
+        height: 280px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    img.claseImg{
+        width: 270px;
+        height: 270px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    img.claseImg{
+        width: 260px;
+        height: 260px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    img.claseImg{
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    img.claseImg{
+        width: 240px;
+        height: 240px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    img.claseImg{
+        width: 230px;
+        height: 230px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    img.claseImg{
+        width: 220px;
+        height: 220px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    img.claseImg{
+        width: 210px;
+        height: 210px;
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 1080px) {
+    input#inputBusqueda{
+        font-size: 25px;
+        width: 570px;
+    }
+    #contenedorRecientes{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    img.claseImg{
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    img.claseImg{
+        width: 190px;
+        height: 190px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    img.claseImg{
+        width: 180px;
+        height: 180px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    img.claseImg{
+        width: 170px;
+        height: 170px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    input#inputBusqueda{
+        font-size: 18px;
+        width: 570px;
+    }
+    img.claseImg{
+        width: 160px;
+        height: 160px;
+        margin: 5px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    img.claseImg{
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    img.claseImg{
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    img.claseImg{
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    img.claseImg{
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 686px) {
+    input#inputBusqueda{
+        font-size: 18px;
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    img.claseImg{
+        width: 110px;
+        height: 110px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input#inputBusqueda{
+        font-size: 18px;
+        width: 210px;
+    }
+
+    img.claseImg{
+        width: 110px;
+        height: 110px;
+        margin: 5px;
+    }
+
+    img.claseImg{
+        margin-left: 25px;
+    }
+
+    .container{
+        margin-left: 15px;
+        
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    img.claseImg{
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    img.claseImg{
+        width: 110px;
+        height: 110px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    img.claseImg{
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    img.claseImg{
+        width: 180px;
+        height: 180px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img.claseImg{
+        width: 160px;
+        height: 160px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    input#inputBusqueda{
+        font-size: 18px;
+        width: 210px;
+    }
+
+    .container{
+        margin-left: 2px;
+        
+    }
+}
+
+@media only screen and (max-width: 346px) {
+    img.claseImg{
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 346px) {
+    img.claseImg{
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+    }
+    button#buscarBoton{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 308px) {
+    img.claseImg{
+        width: 284px;
+        height: 284px;
+        margin: 5px;
+    }
+}
